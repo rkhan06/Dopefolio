@@ -1,11 +1,6 @@
 .home-hero {
   color: #fff;
-  background: linear-gradient(
-      to right,
-      rgba($themeClrPrimary, 0.8),
-      rgba($themeClrPrimary, 0.8)
-    ),
-    url(../../assets/svg/common-bg.svg);
+  
   background-position: center;
 
   height: 100vh;
@@ -17,6 +12,10 @@
   @include respond(phone) {
     height: unset;
     min-height: unset;
+  }
+
+  #hero-section{
+    background-image: url(../../assets/jpeg/rag_main.jpg);
   }
 
   &__socials {
@@ -66,7 +65,7 @@
 
   &__content {
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 90rem;
@@ -196,6 +195,14 @@
     url(../../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
+
+  .contact-button-container{
+    text-align: center;
+    a{
+      padding: 10px 35px;
+      background: white;
+    }
+  }
 
   &__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

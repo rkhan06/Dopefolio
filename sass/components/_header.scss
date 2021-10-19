@@ -28,12 +28,10 @@
     }
   }
   &__logo-img-cont {
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50px;
+    width: 8rem;
+    height: 3rem;
     overflow: hidden;
-    margin-right: 1.5rem;
-    background: $themeClrPrimary;
+    margin-right: 1.5rem;;
 
     @include respond(tab-port) {
       width: 4.5rem;
@@ -44,7 +42,6 @@
   &__logo-img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     object-position: center;
     display: block;
   }

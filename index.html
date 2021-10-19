@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Dopefolio</title>
+    <title>RAG</title>
     <meta name="description" content="Portfolio Template for Developer" />
 
     <link rel="stylesheet" href="css/style.css" />
@@ -23,7 +23,7 @@
           <div class="header__logo-img-cont">
             <img
             id="site_logo"
-              src=""
+              src="./assets/png/logo.png"
               alt="Logo Image"
               class="header__logo-img"
             />
@@ -83,7 +83,7 @@
         </div>
       </div>
     </header>
-    <section class="home-hero">
+    <section id="hero-section" class="home-hero" style="background-image: url('../Dopefolio/assets/jpeg/rag_main.jpg')">
       <div class="home-hero__content">
         <h1 class="heading-primary" id="heading-primary"></h1>
         <div class="home-hero__info">
@@ -91,7 +91,7 @@
           </p>
         </div>
         <div class="home-hero__cta">
-          <a href="./#projects" class="btn btn--bg">Projects</a>
+          <a href="./index.html#projects" class="btn btn--bg">Projects</a>
         </div>
       </div>
       <div class="home-hero__socials">
@@ -151,22 +151,22 @@
     <section id="about" class="about sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__main">About US</span>
           <span class="heading-sec__sub" id="about-me">
           </span>
         </h2>
         <div class="about__content">
           <div class="about__content-main">
-            <h3 class="about__content-title">Get to know me!</h3>
+            <h3 class="about__content-title">Get to know us!</h3>
             <div class="about__content-details">
               <p class="about__content-details-para" id="about-me-detailed">
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+            <a href="mailto:rag.strconsult@gmail.com" class="btn btn--med btn--theme dynamicBgClr"
               >Contact</a
             >
           </div>
           <div class="about__content-skills">
-            <h3 class="about__content-title">My Skills</h3>
+            <h3 class="about__content-title">Services</h3>
             <div class="skills" id="skills">
             </div>
           </div>
@@ -192,48 +192,10 @@
           <span class="heading-sec__sub heading-sec__sub--lt" id="contact-subheading">
           </span>
         </h2>
-        <div class="contact__form-container">
-          <form action="#" class="contact__form">
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="name">Name</label>
-              <input
-                required
-                placeholder="Enter Your Name"
-                type="text"
-                class="contact__form-input"
-                name="name"
-                id="name"
-              />
-            </div>
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="email">Email</label>
-              <input
-                required
-                placeholder="Enter Your Email"
-                type="text"
-                class="contact__form-input"
-                name="email"
-                id="email"
-              />
-            </div>
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="message">Message</label>
-              <textarea
-                required
-                cols="30"
-                rows="10"
-                class="contact__form-input"
-                placeholder="Enter Your Message"
-                name="message"
-                id="message"
-              ></textarea>
-            </div>
-            <button type="submit" class="btn btn--theme contact__btn">
-              Submit
-            </button>
-          </form>
+        <div class="contact-button-container">
+          <a class="btn" href="mailto:rag.strconsult@gmail.com">Contact Us</a>
         </div>
-      </div>
+          
     </section>
     <footer class="main-footer">
       <div class="main-container">
@@ -290,8 +252,8 @@
         <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
         <div class="main-footer__lower">
           &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
+          <a rel="noreferrer" target="_blank"
+            >Rameen Khan</a
           >
         </div>
       </div>
