@@ -98,8 +98,8 @@ if (document.getElementById('project-list')) {
       <a
         href="${project.href}"
         class="btn btn--med btn--theme dynamicBgClr"
-        target="_blank"
-      >Case Study</a
+        target=""
+      >Details</a
       >
     </div>
   </div>`;
@@ -116,7 +116,7 @@ if (document.getElementById('contact-subheading')) {
 
 
 // Social Links
-['github', 'linkedin', 'twitter', 'instagram', 'youtube'].forEach(name => {
+['github', 'linkedin', 'twitter', 'instagram', 'youtube', 'facebook'].forEach(name => {
   const elements = document.getElementsByClassName(name);
   for (const element of elements) {
     element.href = data[name];

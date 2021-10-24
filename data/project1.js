@@ -1,18 +1,14 @@
 // Enter Details for Project
 var project = {
-  title: "Project 1",
-  image_src: "./assets/jpeg/project-mockup-example.jpeg",
-  summary: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.`,
-  details: `Lorem ipsum dolor sit amet consectetur adipisicing elit.Neque alias tenetur minus quaerat aliquid, 
-            aut provident blanditiis, deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-            mollitia laborum corrupti ullam rem.Lorem ipsum dolor sit amet
-            consectetur adipisicing elit.Neque alias tenetur minus quaerat
-            aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-            eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-            ullam rem?`,
-  tools: ['HTML', 'CSS3', 'PHP', 'JavaScript', 'React', 'SASS', 'GIT', 'Shopify'],
+  title: "Gulberg Heights",
+  image_src: "./assets/jpeg/gulberg-heights.jpg",
+  summary: ``,
+  details: `Gulberg Dream Heights is one of the largest residential projects of Islamabad. 
+  It consists of 7 clusters each cluster having 7 towers of varying stories conjoined together aesthetically.
+  We were responsible for the vetting of the structure design and drawings of the project with ACE. 
+  This project utilizes IMRF and dual system in different towers with foundation also including raft and piles in different towers.
+  We also were a part of the site managemnt and supervision team.`,
+  tools: ['Structural Design ', 'Construction Supervision'],
   live_link: "/live",
   code_link: "/code"
 }
