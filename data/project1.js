@@ -8,7 +8,5 @@ var project = {
   We were responsible for the vetting of the structure design and drawings of the project with ACE. 
   This project utilizes IMRF and dual system in different towers with foundation also including raft and piles in different towers.
   We also were a part of the site managemnt and supervision team.`,
-  tools: ['Structural Design ', 'Construction Supervision'],
-  live_link: "/live",
-  code_link: "/code"
+  tools: ['Structural Design ', 'Construction Supervision']
 }

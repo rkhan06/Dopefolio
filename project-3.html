@@ -15,6 +15,10 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
   </head>
   <body>
     <header class="header">
@@ -96,12 +100,14 @@
       <div class="main-container">
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
-            <img
-              src=""
-              alt="Project Image"
-              class="project-details__showcase-img"
-              id="project-image"
-            />
+            <div class="fotorama">
+              <img src="./assets/jpeg/P-4/1.jpg">
+              <img src="./assets/jpeg/P-4/2.jpg">
+              <img src="./assets/jpeg/P-4/3.jpg">
+              <img src="./assets/jpeg/P-4/4.jpg">
+              <img src="./assets/jpeg/P-4/5.jpg">
+              <img src="./assets/jpeg/P-4/6.jpg">
+            </div>
           </div>
           <div class="project-details__content-main">
             <div class="project-details__desc">

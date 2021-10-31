@@ -6,7 +6,5 @@ var project = {
   details: `PAF Teaching Hospital at E8 is a multi storey hospital. 
             We were responsible for the structure design of the project with ACE. 
             It has two towers with an expansion joint and utilizes dual system with raft.`,
-  tools: ['Structural Design'],
-  live_link: "/live",
-  code_link: "/code"
+  tools: ['Structural Design', 'Construction Supervision']
 }

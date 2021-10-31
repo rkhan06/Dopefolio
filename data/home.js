@@ -1,6 +1,6 @@
 var data = {
   site_logo: "./assets/png/logo.png",
-  name: "RAG Engineering Consultants",
+  name: "RAG Consultants & Contractors",
   heading: "",
   summary: "",
 
@@ -28,7 +28,7 @@ var data = {
     {
       title: "GULBERG DREAM HEIGHTS",
       href: './project-1.html',
-      image_src: "./assets/jpeg/gulberg-heights.jpg",
+      image_src: "./assets/jpeg/P-2/1.jpg",
       summary: `Gulberg Dream Heights is one of the largest residential projects of Islamabad. 
       It consists of 7 clusters each cluster having 7 towers of varying stories conjoined together aesthetically.
       We were responsible for the vetting of the structure design and drawings of the project with ACE. 
@@ -38,7 +38,7 @@ var data = {
     {
       title: "PAF TEACHING HOSPITAL",
       href: './project-2.html',
-      image_src: "./assets/png/PAF-2.png",
+      image_src: "./assets/jpeg/P-3/PAF-1.PNG",
       summary: `PAF Teaching Hospital at E8 is a multi storey hospital. 
         We were responsible for the structure design of the project with ACE. 
         It has two towers with an expansion joint and utilizes dual system with raft.`,
@@ -46,7 +46,7 @@ var data = {
 	  {
       title: "AIR UNIVERSITY H-11 CAMPUS",
       href: './project-3.html',
-      image_src: "./assets/jpeg/Air-uni-1.jpg",
+      image_src: "./assets/jpeg/P-4/1.jpg",
       summary: `AIR University H-11 campus is located in Islamabad. We were responsible for the structure design of the Academic Block, Hostel Block & Admin block as 
       strustural design engineer with ACE. These buildings were designed as IMRF structural system with Raft foundation. Admin Block also had isolated footings `,
     }

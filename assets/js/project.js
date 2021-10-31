@@ -1,5 +1,5 @@
 document.title = project.title;
-document.getElementById('project-image').src = project.image_src;
+// document.getElementById('project-image').src = project.image_src;
 document.getElementById('project-title').innerText = project.title;
 document.getElementById('project-details').innerHTML = project.details;
 
@@ -12,9 +12,4 @@ if (tools_parent_div) {
     el.innerText = skill;
     tools_parent_div.appendChild(el);
   });
-}
-
-const elements = document.getElementsByClassName('live_link');
-for (const element of elements) {
-  element.href = project.live_link;
 }
